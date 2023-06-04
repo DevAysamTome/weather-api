@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container{
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(255, 238, 0));
+    position: relative;
+    background-color: transparent;
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp{
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    float: left;
+    position: relative;
+
+}
+h2.temps{
+    font-size: 39px !important;
+    padding: 10px;
+}
+.cityname{
+    padding: 15px;
+    font-size: 26px;
+}
+
+.desc{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.icon{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+
+}
+
+#img{
+    position: relative;
+    width: 100px;
+
+}
+
+.title{
+    text-align: center;
+
+}
+
+.title h1{
+    margin: 15px;
+}
+
+
+.dev-aysam{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
