@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+
 }
 
 .sec{
@@ -88,4 +90,29 @@ h2.temps{
     text-align: center;
     padding: 5px;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 765px){
+    .title h1{
+        font-size: 25px;
+    }
+    .container{
+        width: 100%;
+    }
+    h2.temps{
+        font-size: 26px !important;
+    }
+    .cityname{
+        font-size: 22px;
+    }
+    .desc{
+        font-size: 18px;
+    }
+    #img{
+        width: auto;
+    }
+
+    .dev-aysam{
+        font-size: 18px;
+    }
 }
