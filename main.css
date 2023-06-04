@@ -93,6 +93,10 @@ h2.temps{
 }
 
 @media only screen and (max-width: 765px){
+   .sec{
+    overflow: scroll !important;
+   }
+   
     .title h1{
         font-size: 25px;
     }
@@ -109,7 +113,7 @@ h2.temps{
         font-size: 18px;
     }
     #img{
-        width: auto;
+        width: 50px;
     }
 
     .dev-aysam{
