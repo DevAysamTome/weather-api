@@ -93,27 +93,27 @@ h2.temps{
 }
 
 @media only screen and (max-width: 765px){
-   *{
+  *{
     overflow: scroll !important;
    }
    
     .title h1{
-        font-size: 25px;
+        font-size: 23px;
     }
     .container{
         width: 100%;
     }
     h2.temps{
-        font-size: 26px !important;
+        font-size: 20px !important;
     }
     .cityname{
-        font-size: 22px;
-    }
-    .desc{
         font-size: 18px;
     }
+    .desc{
+        font-size: 16px;
+    }
     #img{
-        width: 50px;
+        width: 25%;
     }
 
     .dev-aysam{
